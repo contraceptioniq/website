@@ -1,0 +1,31 @@
+.jumbotron { 
+	background-color: hsl(216, 55%, 35%);
+	color: white;
+}
+
+.jumbotron .display-3 {
+	font-weight: lighter !important;
+}
+
+.jumbotron a {
+	color: #ddd;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+a {
+	color: hsl(216, 50%, 40%);
+}
+
+img.logo {
+	height: 250px;
+}
+
+@media (max-width: 767px) {
+	.display-3 {
+		font-size: 3.8rem;
+	}
+	.row.marketing {
+		text-align: center;
+	}
+}
